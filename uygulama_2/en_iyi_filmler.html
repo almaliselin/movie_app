@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>En İyi Filmler</title>
+    <meta description="film"/>
+</head>
+<body style="background-color: snow;">
+
+  <!--topbar navigasyonu burda-->
+  <!--navigasyon maddeleri link şeklinde, film özetleri linki çalışıyor-->
+  <header>
+    
+    <nav>
+      <a href="#" style="color: black;text-decoration: none;margin-right: 10px;">
+        En İyi Filmler
+      </a>
+      <a href="#" style="color: black;text-decoration: none;margin-right: 10px;">
+        En Son Çıkan Filmler
+      </a>
+      <a href="#" style="color: black;text-decoration: none;margin-right: 10px;">
+        En Fazla Oy Alan Filmler
+      </a>
+      <a href="film_ozetleri.html" style="color: black;text-decoration: none;margin-right: 10px;">Film Özetleri</a>
+    </nav>
+    
+  </header>
+
+  <!--başlık etiketleri (h1,...h6), paragraf etiketi vs (tüm sayfada)-->
+  <!--sematik etiketlerle düzenleme (tüm sayfada mevcut)-->
+  <!--stillendirme (tüm sayfa genelinde)-->
+  <!--hr etiketi, çizgi ile sayfayı ayırma-->
+
+  <hr>
+  <!--aside etiketiyle sematik gruplandırma-->
+  <!--kategorler listesi, sırasız liste şeklinde, listeleme noktaları silindi, liste maddeleri link şeklinde-->
+  <!--aside, ul, style, header, li, a-->
+  <aside>
+      <ul style="list-style-type: none;">
+        <header>
+          <h2>Kategori Listesi</h2>
+        </header>
+        <li>
+          <a href="#" style="color: black;text-decoration: none;margin-bottom: 5px;">Tüm kategoriler</a>
+        </li>
+        <li>
+          <a href="#" style="color: black;text-decoration: none;margin-bottom: 5px;">Dram</a>
+        </li>
+        <li>
+          <a href="#" style="color: black;text-decoration: none;margin-bottom: 5px;">Komedi</a>
+        </li>
+        <li>
+          <a href="#" style="color: black;text-decoration: none;margin-bottom: 5px;">Aksiyon</a>
+        </li>
+        <li>
+          <a href="#" style="color: black;text-decoration: none;margin-bottom: 5px;">Aile</a>
+        </li>
+        <li>
+          <a href="#" style="color: black;text-decoration: none;margin-bottom: 5px;">Çizgi film</a>
+        </li>
+        <li>
+          <a href="#" style="color: black;text-decoration: none;margin-bottom: 5px;">Fantastik</a>
+        </li>
+      </ul>
+  </aside>
+
+  <main>
+
+    <hr>
+    <!--sayfada ana temanın başlığı ve açıklaması, header etiketi ile belirtildi-->
+    <!--p etiketi içerisinde span kullandım, örnek olarak-->
+    <header>
+      <h1 style="color: darkgreen; margin-bottom: 1px;">Bu Akşam Planlarınızı İptal Edip İzleyeceğiniz 3 Film</h1>
+      <p style="font-size: large;">Bu sayfada size izlemesi <span style="font-weight: bold;">keyifli ve en popülerler listesinde</span> bulunan 3 tane filmin listesini verdim.</p>
+    </header>
+
+    <!--ana içeriği sıralı liste olarak websayfaları arası linkler ile ekledim-->
+    <!--listedeki 1,2,3 sıralamasını yazıya göre ayrı olarak büyütemediğim için h2 etiketi arasında yazdım-->
+    <!--bu sekme de farklı sayfalara yönlendiren bir liste olduğu için "nav" kullandım ama gerek var mı?-->
+    <!--listenin etrafını çerçeveye aldım-->
+    <!--section, nav, style, h2, ol, a-->
+    <section>
+      <nav style="border: thin dotted darkgreen;width: 300px;">
+        <h2>
+          <ol>
+            <li><a href="esaretin_bedeli.html">Esaretin Bedeli</a></li>
+
+            <li><a href="gelecege_donus.html">Geleceğe Dönüş</a></li>
+
+            <li><a href="forrest_gump.html">Forrest Gump</a></li>
+          </ol>
+        </h2>
+      </nav>
+    </section>
+    <hr>
+
+    <header>
+      <h2>Bazı Kitaplardan Uyarlanmış Filmler</h2>
+    </header>
+    <!--tablo örneği, kitaplardan uyarlanmış filmler tablosu-->
+    <!--tablonun içeriğinde başlık, resim, yazı ve farklı websitelerine link(fragmanlara link) var-->
+    <!--tablo hücrelerinin boyutlarını ayarlayamadım, tekrar uğraşmam lazım-->
+    <!--table, thead, tbody, th, tr, td, img, a, target-->
+    <table>
+      <thead>
+        <th>Açlık Oyunları</th>
+        <th>Alacakaranlık</th>
+        <th>Senden Önce Ben</th>
+        <th>Aynı Yıldızın Altında</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="C:\Users\Lenovo\Desktop\movie_app\images\Açlıkoyunları.jpg" alt="açlık oyunları afiş" style="width: 100px;"></td>
+          <td><img src="C:\Users\Lenovo\Desktop\movie_app\images\alacakaranlık.jpg" alt="alacakaranlık afiş" style="width: 100px;"></td>
+          <td><img src="C:\Users\Lenovo\Desktop\movie_app\images\sendenönceben.jpg" alt="Senden Önce Ben afiş" style="width: 100px;"></td>
+          <td><img src="C:\Users\Lenovo\Desktop\movie_app\images\aynıyıldızınaltında.jpg" alt="Aynı Yıldızın Altında afiş" style="width: 100px;"></td>
+        </tr>
+        <tr>
+          <td>Suzanne Collins</td>
+          <td>Stephenie Meyer</td>
+          <td>Jojo Moyes</td>
+          <td>John Green</td>
+        </tr>
+        <tr>
+          <td>Gary Ross</td>
+          <td>Catherine Hardwicke</td>
+          <td>Thea Sharrock</td>
+          <td>Josh Boone</td>
+        </tr>
+        <tr>
+          <td>Jennifer Lawrence</td>
+          <td>Robert Pattinson</td>
+          <td>Emilia Clark</td>
+          <td>Shailene Woodley</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.beyazperde.com/filmler/film-145083/fragman-19248965/">Fragman</a></td>
+          <td><a href="https://www.beyazperde.com/filmler/film-131377/fragman-18843516/">Fragman</a></td>
+          <td><a href="https://www.beyazperde.com/filmler/film-230327/fragman-19540785/">Fragman</a></td>
+          <td><a href="https://www.beyazperde.com/filmler/film-218926/fragman-19535757/">Fragman</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+  
+  <!--footer kısmı-->
+  <!--sosyal medyalara link olarak düzenledim, kutu içine alıp yerini sayfa sonu olacak şekilde ayarladım-->
+  <!--footer, nav, style, a, target-->
+  <footer style="border: thin solid black; margin-top: 346px;">
+    <nav>
+      Sosyal medya hesaplarımız 
+      <a href="#" target="_blank">İnstagram</a>
+      <a href="#" target="_blank">Facebook</a>
+      <a href="#" target="_blank">Youtube</a>
+    </nav>
+  </footer>
+
+
+</body>
+</html>
