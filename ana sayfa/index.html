@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizyona Giren Filmleri İlk Siz Keşfedin. | movietr.com</title>
+</head>
+<body>
+    <!--Header kısmına websitesi içinde navigasyon ve sayfanın ana başlığını ekledim-->
+    <header>
+        <nav>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\ana sayfa\index.html">Anasayfa</a>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\uygulama_2\film_ozetleri.html">Film Özetleri</a>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\uygulama_2\en_iyi_filmler.html">En İyi Filmler</a>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\form ve iframe uygulaması\formörnegi.html">Kayıt ol!</a>
+        </nav>
+        <hr>
+        <h1>Vizyona Giren Filmleri İlk Siz Keşfedin!</h1>
+
+    </header>
+
+    <section id="content">
+        <!--sayfa içeriğinin sayfa bütününde şeklini düzenleyebilmek için tablo içine yerleştirdim.-->
+
+        <table>
+            <tr style="vertical-align: top;">
+                <!--tablo içine yerleştirirken de bir blok olarak kalmaları için div içine yerleştirdim-->
+                <td>
+                    <!--burdaki içeriği de tablo olarak hazırladım, div içinde ana tabloya yerleştirdim.-->
+                    <div id="filmler">
+                        <h2>Popüler Filmler</h2>
+                        <table>
+                            <tbody>
+                                <!--iki blok arasında boşluk bırakabilmek için ortaya bir kolon daha ekleyip genişliğini ayarladım.-->
+                                <tr style="vertical-align: top;">
+                                    <td><img src="C:\Users\Lenovo\Desktop\movie_app\images\yuzuk.jpg" alt="Yüzüklerin Efendisi" style="width: 100px;"></td>
+                                    <td style="width: 20px;"></td>
+                                    <td><h3><a href="C:\Users\Lenovo\Desktop\movie_app\uygulama_1\yuzuklerin_efendisi_yuzuk_kardesligi.html">Yüzüklerin Efendisi: Yüzük Kardeşliği</a></h3>
+                                    <p>Lorem ipsum dolor sit amet.</p></td>
+                                </tr>
+                                <tr style="vertical-align: top;">
+                                    <td><img src="C:\Users\Lenovo\Desktop\movie_app\images\yuzuk.jpg" alt="Yüzüklerin Efendisi" style="width: 100px;"></td>
+                                    <td></td>
+                                    <td><h3><a href="C:\Users\Lenovo\Desktop\movie_app\uygulama_1\yuzuklerin_efendisi_yuzuk_kardesligi.html">Yüzüklerin Efendisi: Yüzük Kardeşliği</a></h3>
+                                    <p>Lorem ipsum dolor sit amet.</p></td>
+                                </tr>
+                                <tr style="vertical-align: top;">
+                                    <td><img src="C:\Users\Lenovo\Desktop\movie_app\images\yuzuk.jpg" alt="Yüzüklerin Efendisi" style="width: 100px;"></td>
+                                    <td></td>
+                                    <td><h3><a href="C:\Users\Lenovo\Desktop\movie_app\uygulama_1\yuzuklerin_efendisi_yuzuk_kardesligi.html">Yüzüklerin Efendisi: Yüzük Kardeşliği</a></h3>
+                                    <p>Lorem ipsum dolor sit amet.</p></td>
+                                </tr>
+                            </tbody>
+                        </table>  
+                    </div>
+                </td>
+                <td>
+                    <!--burada da yan sekme olarak kullanığımız linkler var, aside etiketi kullandım, div içine yerleştirdim ama gerek olmayadabilir.-->
+                    <div id="yansekme">
+                        <aside>
+                            <!--linkleri liste olarak düzenledim, alt madde olarak da kullandım.-->
+                            <ul>
+                                <li><h4>Filmler</h4>
+                                    <ul>
+                                        <li><a href="#">Popüler</a></li>
+                                        <li><a href="#">Gündemdekiler</a></li>
+                                        <li><a href="#">Vizyondakiler</a></li>
+                                    </ul>
+                                </li>
+                                <li><h4>Diziler</h4>
+                                    <ul>
+                                        <li><a href="#">Popüler</a></li>
+                                        <li><a href="#">Gündemdekiler</a></li>
+                                        <li><a href="#">Yayındakiler</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </td>
+            </tr>
+            <tr style="vertical-align: top;">
+                <td>
+                    <div id="fragman">
+                        <!--birinci tablonun benzeri, tek farkı yazılar yerine iframe ile videolar yerleştirilmiş, tasarım farkı var.-->
+                        <h2>Popüler Fragmanlar</h2>
+                        <table>
+                            <tr><h3>Gönül Resmi Fragman</h3></tr>
+                            <tr>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/UheQKi0Hc3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </tr>
+                            <tr><h3>Seversin 12.bölüm</h3></tr>
+                            <tr>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Bbw7ZSAPp30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </tr>
+                            <tr><h3>O Kız 1.bölüm</h3></tr>
+                            <tr>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/UaTHpHsc-g4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+
+    </section>
+    
+    <!--footer kısmı-->
+    <!--sosyal medyalara link olarak düzenledim, kutu içine alıp yerini sayfa sonu olacak şekilde ayarladım-->
+    <!--footer, nav, style, a, target-->
+    <!--diğer sayfalara olan nav eklendi-->
+    <footer style="border: thin solid black; margin-top: 346px;">
+        <hr>
+        <nav>
+            Sosyal medya hesaplarımız 
+            <a href="#" target="_blank">İnstagram</a>
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Youtube</a>
+          </nav>
+        <hr>
+        <nav>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\ana sayfa\index.html">Anasayfa</a>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\uygulama_2\film_ozetleri.html">Film Özetleri</a>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\uygulama_2\en_iyi_filmler.html">En İyi Filmler</a>
+            <a href="C:\Users\Lenovo\Desktop\movie_app\form ve iframe uygulaması\formörnegi.html">Kayıt ol!</a>
+        </nav>
+    </footer>
+
+
+</body>
+</html>
